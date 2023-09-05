@@ -28,6 +28,7 @@ export class EnrollmentComponent {
       })
       .then(students => {
         const student = students.find((student: any) => student.name === name);
+        localStorage.setItem("studentID",student.id)
         return student ? student.id : null;
       })
       .catch(error => {
@@ -47,6 +48,7 @@ export class EnrollmentComponent {
       })
       .then(courses => {
         const course = courses.find((course: any) => course.course_name === courseName);
+        
         return course ? course.id : null;
       })
       .catch(error => {

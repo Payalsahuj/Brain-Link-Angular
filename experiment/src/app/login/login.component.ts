@@ -21,7 +21,7 @@ export class LoginComponent {
           (response: any) => {
             if (response.message === 'Login successful') {
               alert('Student login successful');
-              this.router.navigate(['/dashboard']);
+              this.router.navigate(['/studentdashboard']);
             } else {
               alert('Student login failed');
             }
@@ -38,7 +38,7 @@ export class LoginComponent {
             if (response.message === 'Login successful') {
               alert('Instructor login successful');
               // Redirect to instructor dashboard or other page
-              this.router.navigate(['/dashboard']);
+              this.router.navigate(['/instructordashboard']);
             } else {
               alert('Instructor login failed');
             }
@@ -55,7 +55,7 @@ export class LoginComponent {
             if (response.message === 'Login successful') {
               alert('Administrator login successful');
               // Redirect to admin dashboard or other page
-              this.router.navigate(['/dashboard']);
+              this.router.navigate(['/Administratordashboard']);
             } else {
               alert('Administrator login failed');
             }

@@ -12,10 +12,16 @@ import { StudentService } from './student.service';
 import { HttpClientModule } from '@angular/common/http';
 import { InstructorService } from './instructor.service';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { AssignmentsComponent } from './assignments/assignments.component';
+
 import { CoursesComponent } from './courses/courses.component';
 import { DashboardService } from './dashboard.service';
 import { EnrollmentComponent } from './enrollment/enrollment.component';
+import { StunavbarComponent } from './stunavbar/stunavbar.component';
+import { StudashboardComponent } from './studashboard/studashboard.component';
+import { StucoursesComponent } from './stucourses/stucourses.component';
+import { AnnouncementComponent } from './announcement/announcement.component';
+import { StuassignmentComponent } from './stuassignment/stuassignment.component';
+import { AssignsubmissionComponent } from './assignsubmission/assignsubmission.component';
 
 
 
@@ -29,9 +35,15 @@ import { EnrollmentComponent } from './enrollment/enrollment.component';
     InstructorregisterComponent,
     DashboardComponent,
     LoginComponent,
-    AssignmentsComponent,
+
     CoursesComponent,
-    EnrollmentComponent
+    EnrollmentComponent,
+    StunavbarComponent,
+    StudashboardComponent,
+    StucoursesComponent,
+    AnnouncementComponent,
+    StuassignmentComponent,
+    AssignsubmissionComponent
   ],
   imports: [
     BrowserModule,

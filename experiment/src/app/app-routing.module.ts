@@ -5,20 +5,26 @@ import { InstructorregisterComponent } from './instructorregister/instructorregi
 
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { AssignmentsComponent } from './assignments/assignments.component';
+
 import { CoursesComponent } from './courses/courses.component';
 import { EnrollmentComponent } from './enrollment/enrollment.component';
+import { StudashboardComponent } from './studashboard/studashboard.component';
+import { StucoursesComponent } from './stucourses/stucourses.component';
+import { AnnouncementComponent } from './announcement/announcement.component';
+import { StuassignmentComponent } from './stuassignment/stuassignment.component';
+import { AssignsubmissionComponent } from './assignsubmission/assignsubmission.component';
 
 const routes: Routes = [
   { path: '', component: DashboardComponent}, // Assuming you have a registration form at /register
   { path: 'studentregister', component: StudentregisterComponent },
   { path: 'login', component: LoginComponent},
-  { path: 'assignment', component: AssignmentsComponent},
+  { path: 'studentcourse', component: StucoursesComponent},
   { path: 'course', component: CoursesComponent},
   { path: 'enrollment', component: EnrollmentComponent },
-
-
-
+  { path: 'announcement', component: AnnouncementComponent },
+  { path: 'studentassignment', component: StuassignmentComponent },
+  { path: 'studentassignment/:id', component: AssignsubmissionComponent },
+  { path: 'studentdashboard', component: StudashboardComponent },
   { path: 'instructorregister', component: InstructorregisterComponent },
   // ... other routes
 ];
