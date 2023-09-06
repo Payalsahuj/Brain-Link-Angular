@@ -13,6 +13,10 @@ import { StucoursesComponent } from './stucourses/stucourses.component';
 import { AnnouncementComponent } from './announcement/announcement.component';
 import { StuassignmentComponent } from './stuassignment/stuassignment.component';
 import { AssignsubmissionComponent } from './assignsubmission/assignsubmission.component';
+import { InstructordashboardComponent } from './instructordashboard/instructordashboard.component';
+import { InstructorecreateassignComponent } from './instructorecreateassign/instructorecreateassign.component';
+import { InstructorcreateannounComponent } from './instructorcreateannoun/instructorcreateannoun.component';
+import { InstructoreditassignComponent } from './instructoreditassign/instructoreditassign.component';
 
 const routes: Routes = [
   { path: '', component: DashboardComponent}, // Assuming you have a registration form at /register
@@ -25,6 +29,10 @@ const routes: Routes = [
   { path: 'studentassignment', component: StuassignmentComponent },
   { path: 'studentassignment/:id', component: AssignsubmissionComponent },
   { path: 'studentdashboard', component: StudashboardComponent },
+  { path: 'instructordashboard', component: InstructordashboardComponent },
+  {path:'addassignment',component: InstructorecreateassignComponent},
+  {path:'addannouncement',component: InstructorcreateannounComponent},
+  {path:'addassignment/:id',component: InstructoreditassignComponent},
   { path: 'instructorregister', component: InstructorregisterComponent },
   // ... other routes
 ];

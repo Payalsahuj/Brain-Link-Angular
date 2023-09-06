@@ -24,7 +24,7 @@ export class AssignsubmissionComponent implements OnInit {
       this.http.get<any>(`http://127.0.0.1:8000/brainlink/assignments/${this.assignmentId}/`).subscribe(data => {
         this.assignmentDetails = data; // Store assignment details
         if (this.assignmentDetails.description) {
-          this.descriptionParagraphs = this.assignmentDetails.description.split('\r\n\r\n');
+          this.descriptionParagraphs = this.assignmentDetails.description.split(/\r?\n+/);
         }
       });
     });

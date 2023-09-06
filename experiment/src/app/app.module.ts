@@ -22,6 +22,11 @@ import { StucoursesComponent } from './stucourses/stucourses.component';
 import { AnnouncementComponent } from './announcement/announcement.component';
 import { StuassignmentComponent } from './stuassignment/stuassignment.component';
 import { AssignsubmissionComponent } from './assignsubmission/assignsubmission.component';
+import { InstructornavbarComponent } from './instructornavbar/instructornavbar.component';
+import { InstructordashboardComponent } from './instructordashboard/instructordashboard.component';
+import { InstructorecreateassignComponent } from './instructorecreateassign/instructorecreateassign.component';
+import { InstructorcreateannounComponent } from './instructorcreateannoun/instructorcreateannoun.component';
+import { InstructoreditassignComponent } from './instructoreditassign/instructoreditassign.component';
 
 
 
@@ -43,7 +48,12 @@ import { AssignsubmissionComponent } from './assignsubmission/assignsubmission.c
     StucoursesComponent,
     AnnouncementComponent,
     StuassignmentComponent,
-    AssignsubmissionComponent
+    AssignsubmissionComponent,
+    InstructornavbarComponent,
+    InstructordashboardComponent,
+    InstructorecreateassignComponent,
+    InstructorcreateannounComponent,
+    InstructoreditassignComponent
   ],
   imports: [
     BrowserModule,
