@@ -27,6 +27,7 @@ import { InstructordashboardComponent } from './instructordashboard/instructorda
 import { InstructorecreateassignComponent } from './instructorecreateassign/instructorecreateassign.component';
 import { InstructorcreateannounComponent } from './instructorcreateannoun/instructorcreateannoun.component';
 import { InstructoreditassignComponent } from './instructoreditassign/instructoreditassign.component';
+import { InststudentdetailsComponent } from './inststudentdetails/inststudentdetails.component';
 
 
 
@@ -53,7 +54,8 @@ import { InstructoreditassignComponent } from './instructoreditassign/instructor
     InstructordashboardComponent,
     InstructorecreateassignComponent,
     InstructorcreateannounComponent,
-    InstructoreditassignComponent
+    InstructoreditassignComponent,
+    InststudentdetailsComponent
   ],
   imports: [
     BrowserModule,

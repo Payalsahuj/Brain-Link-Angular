@@ -17,6 +17,7 @@ import { InstructordashboardComponent } from './instructordashboard/instructorda
 import { InstructorecreateassignComponent } from './instructorecreateassign/instructorecreateassign.component';
 import { InstructorcreateannounComponent } from './instructorcreateannoun/instructorcreateannoun.component';
 import { InstructoreditassignComponent } from './instructoreditassign/instructoreditassign.component';
+import { InststudentdetailsComponent } from './inststudentdetails/inststudentdetails.component';
 
 const routes: Routes = [
   { path: '', component: DashboardComponent}, // Assuming you have a registration form at /register
@@ -34,6 +35,8 @@ const routes: Routes = [
   {path:'addannouncement',component: InstructorcreateannounComponent},
   {path:'addassignment/:id',component: InstructoreditassignComponent},
   { path: 'instructorregister', component: InstructorregisterComponent },
+  { path: 'studentdetails', component: InststudentdetailsComponent },
+
   // ... other routes
 ];
 
