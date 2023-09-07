@@ -61,7 +61,7 @@
 #seconddiv{
     /* border: 2px solid red; */
     width: 40%;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
     display: grid;
     grid-template-columns: repeat(1,1fr);
     justify-content: center;
@@ -101,3 +101,32 @@
     
     
 }
+
+#head{
+    position: relative;
+    display: inline-block;
+ 
+}
+
+
+  .double-underline:after, .double-underline:before{
+    color: orange;
+     content: "";
+    position: absolute;
+    z-index: -1;
+    width:100%;
+    background-color:orange;
+    display: block;
+    height: 3px;
+    
+    
+  }
+  .double-underline:after {
+     bottom: -25px;
+    left: 30px;
+   }
+  
+  .double-underline:before {
+     bottom: -20px;
+   }
+  
