@@ -10,19 +10,18 @@
   - [Assignments](#assignmets)
   - [Announcements](#announcements)
   - [Enrolled courses](#Enrolled)
-  - [Back to Dashboard]
+  - [Back to Dashboard](#BacktToDash)
 - [Instructor Dashboard](#dashboard)
   - [Create Assignments (All CRUD operations)](#assignmets)
   - [Create Announcements (All CRUD operations)](#announcements)
   - [Student lists](#Enrolled)
-  - [Back to Dashboard]
+  - [Back to Dashboard](#BacktToDash)
 - [Administrator Dashboard](#dashboard)
   - [Create Assignments (All CRUD operations)](#assignmets)
   - [Create Announcements (All CRUD operations)](#announcements)
   - [Student lists](#Enrolled)
   - [Add Instructors](#Instructor)
-  - [Back to Dashboard]
-
+  - [Back to Dashboard](#BacktToDash)
 
 <h3 align="left">Languages and Tools:</h3>
 
